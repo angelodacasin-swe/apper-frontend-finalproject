@@ -1,0 +1,63 @@
+/* Jokes.module.css */ 
+
+.container {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.homeButton {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.homeButton:hover {
+  background-color: #2980b9;
+}
+
+.code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.jokeContainer {
+  font-family: "Courier New", Courier, monospace;
+  border: 2px solid #777;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.jokeText {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.jokeButton {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+}

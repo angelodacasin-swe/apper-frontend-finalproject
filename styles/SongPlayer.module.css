@@ -1,0 +1,76 @@
+/* SongPlayer.module.css */
+
+.thickerHr {
+  border: none;
+  border-top: 3px solid black;
+  margin-bottom: 50px;
+}
+
+.container {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  margin-bottom: 18px;
+}
+
+.homeButton {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #3498db; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.homeButton:hover {
+  background-color: #2980b9;
+}
+
+.currentSong {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f7f7f7;
+  font-size: 22px;
+}
+
+.songList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.playButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.playButton:hover {
+  background-color: #2980b9;
+}
+
+/* Additional styles for paragraph texts */
+.paragraph {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.5;
+}

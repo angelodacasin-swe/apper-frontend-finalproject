@@ -1,0 +1,66 @@
+/* styles/About.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f2f2f2;
+}
+
+.title {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.content {
+  font-size: 20px;
+  max-width: 1080px;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff78;
+  text-align: center;
+}
+
+.linkedinLink {
+  font-size: 22px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.linkedinIcon {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.homeButton {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #3498db; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.homeButton:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
